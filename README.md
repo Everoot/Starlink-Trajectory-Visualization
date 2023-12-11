@@ -5,3 +5,12 @@ Starlink: React JS based Starlink Trajectory Visualization
 * Built location, altitude, and duration based selector to refine satellite search.
 * Animated selected satellite paths on a world map using D3 to improve the user-friendliness.
 * Deployed the dashboard to Amazon Web Service for demonstration.
+
+
+
+### Demo
+
+![Dec-11-2023 02-33-38](./README/Dec-11-2023 02-33-38.gif)
+
+
+
