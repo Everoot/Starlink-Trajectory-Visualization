@@ -10,7 +10,6 @@ Starlink: React JS based Starlink Trajectory Visualization
 
 ### Demo
 
-![Dec-11-2023 02-33-38](./README/Dec-11-2023 02-33-38.gif)
-
+<p align="center"><img src="README/Dec-11-2023 02-33-38.gif" alt="Demo Gif"></p>
 
 
