@@ -1,0 +1,39 @@
+@import '~antd/dist/reset.css';
+/* 一定要放在第一行 ant*/
+/* 来自library */
+@import "./styles/App.css";
+@import "./styles/Header.css";
+@import "./styles/Footer.css";
+@import "./styles/Main.css";
+@import "./styles/SatSetting.css";
+@import "./styles/SatelliteList.css";
+@import "./styles/WorldMap.css";
+
+/* @import 用于导入其他样式表。 */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* @import "./styles/App.css" 是一个 @规则，它告诉 webpack 该如何处理这个文件。 */
+/* 当我们 import './styles/App.css' 时，该文件中的内容会被转换成一个字符串，然后被嵌入到最终生成的 JS bundle 中。 */
+/* 这样做的好处是，你可以在生产环境中使用不同的 CSS 提取工具，例如 PostCSS、PurgeCSS 或者将 CSS modules 和压缩工具相结合。 */
+/* 你可以在这里阅读更多关于 CSS 的用法。 */
+/* body 是一个选择器，它会将 body 元素的 font-family 设置为我们指定的值。 */
+/* margin: 0; 会将 body 元素的 margin 设置为 0。 */
+/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
+/*   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', */
+/*   sans-serif; 会将 body 元素的 font-family 设置为指定的值。 */
+/* -webkit-font-smoothing: antialiased; 和 -moz-osx-font-smoothing: grayscale; 会让字体渲染更加平滑。 */
+/* code 是一个选择器，它会将 code 元素的 font-family 设置为指定的值。 */
+/* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', */
+/*   monospace; 会将 code 元素的 font-family 设置为指定的值。 */

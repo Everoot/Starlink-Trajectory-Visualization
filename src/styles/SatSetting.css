@@ -1,0 +1,20 @@
+.sat-setting {
+    width: 100%;
+    background-color: #fbfbfb; /* Light and neutral background color */
+    /*border: 1px solid #d9d9d9; !* Subtle border for definition *!*/
+    /*padding: 20px; !* Increased padding for a spacious layout *!*/
+    text-align: left;
+    /*border-radius: 8px; !* Consistent rounded corners *!*/
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); !* Soft shadow for depth *!*/
+    /*margin-bottom: 20px; !* Space below the form for separation *!*/
+}
+
+.show-nearby {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Additional space above the button area */
+    padding-top: 10px; /* Padding for visual separation */
+    /*border-top: 1px solid #d9d9d9; !* Light border to delineate sections *!*/
+    /*background-color: #f8f8f8; !* Slightly different background for contrast *!*/
+    /*border-radius: 4px; !* Subtle rounded corners for the button area *!*/
+}

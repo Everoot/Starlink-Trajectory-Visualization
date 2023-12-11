@@ -1,0 +1,13 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; /* Adds padding to the top and bottom */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+    font-size: 0.9em; /* Slightly smaller font size for footer content */
+    color: #666; /* A darker color for text for better readability */
+}

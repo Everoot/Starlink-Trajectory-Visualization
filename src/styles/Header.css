@@ -1,0 +1,27 @@
+.App-logo {
+    height: 28px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.App-header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100vw;
+    color: #fff;
+    background-color: #000000;
+    box-shadow: rgb(220, 220, 220) 0px 2px 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+/* .App-logo 是一个选择器，它会将 App-logo 元素的 height 设置为 28px; */
+/* .App-logo 是一个选择器，它会将 App-logo 元素的 margin-left 设置为 20px; */
+/* .App-logo 是一个选择器，它会将 App-logo 元素的 margin-bottom 设置为 10px; */
+
+/* .App-header 是一个选择器，它会将 App-header 元素的 display 设置为 flex; */

@@ -1,0 +1,49 @@
+.map-box {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	Overflow: auto;
+	/*background-color: #fff; !* Light background color *!*/
+	/*border-radius: 8px; !* Rounded corners *!*/
+	/*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); !* Soft shadow for depth *!*/
+}
+
+.map, .track, .spinner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.map {
+	z-index: 0;
+	/*border-radius: 8px; !* Rounded corners *!*/
+}
+
+.track {
+	z-index: 100;
+	/*border: 2px solid #007bff; !* Solid border for tracking element *!*/
+	/*border-radius: 8px; !* Rounded corners *!*/
+}
+
+.spinner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 600px;
+	width: 960px;
+	/*background-color: #fff; !* White background for spinner area *!*/
+	/*border-radius: 8px; !* Rounded corners *!*/
+	/*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); !* Shadow for depth *!*/
+}
+
+.hint {
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px; /* Space above the hint text */
+}
